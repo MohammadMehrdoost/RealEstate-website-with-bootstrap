@@ -1,0 +1,213 @@
+/* //////////////فونت وزیر//////////////// */
+@font-face {
+    font-family: Rokh;
+    src: url('../fonts/Rokh-Black.eot'),
+        url('../fonts/Rokh-Black.woff') format('woff'),
+        url('../fonts/Rokh-Black.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('./../fonts/Vazir-Regular.eot');
+    src: url('./../fonts/Vazir-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./../fonts/Vazir-Regular.woff2') format('woff2'),
+        url('./../fonts/Vazir-Regular.woff') format('woff'),
+        url('./../fonts/Vazir-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('./../fonts/Vazir-Bold.eot');
+    src: url('./../fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./../fonts/Vazir-Bold.woff2') format('woff2'),
+        url('./../fonts/Vazir-Bold.woff') format('woff'),
+        url('./../fonts/Vazir-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('./../fonts/Vazir-Black.eot');
+    src: url('./../fonts/Vazir-Black.eot?#iefix') format('embedded-opentype'),
+        url('./../fonts/Vazir-Black.woff2') format('woff2'),
+        url('./../fonts/Vazir-Black.woff') format('woff'),
+        url('./../fonts/Vazir-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('./../fonts/Vazir-Medium.eot');
+    src: url('./../fonts/Vazir-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./../fonts/Vazir-Medium.woff2') format('woff2'),
+        url('./../fonts/Vazir-Medium.woff') format('woff'),
+        url('./../fonts/Vazir-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('./../fonts/Vazir-Light.eot');
+    src: url('./../fonts/Vazir-Light.eot?#iefix') format('embedded-opentype'),
+        url('./../fonts/Vazir-Light.woff2') format('woff2'),
+        url('./../fonts/Vazir-Light.woff') format('woff'),
+        url('./../fonts/Vazir-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('./../fonts/Vazir-Thin.eot');
+    src: url('./../fonts/Vazir-Thin.eot?#iefix') format('embedded-opentype'),
+        url('./../fonts/Vazir-Thin.woff2') format('woff2'),
+        url('./../fonts/Vazir-Thin.woff') format('woff'),
+        url('./../fonts/Vazir-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+.bg-mainblue {
+    background-color: #D6E3EB;
+}
+
+.my-bg {
+    background-color: #E8F0F4;
+    ;
+}
+
+.rokh {
+    font-family:Rokh;
+;
+}
+
+* {
+    font-family: Rokh;
+}
+
+hr {
+    border: none;
+    height: 5px;
+}
+
+.vazir {
+    font-family: Vazir !important;
+}
+
+.max-width {
+    max-width: 1140px;
+}
+
+.bg-orange {
+    background-color: #FB5C01 !important;
+}
+
+.text-orange {
+    color: #FB5C01 !important;
+}
+
+.filter {
+    max-width: 1080px;
+    position: relative;
+    top: -20vh;
+}
+
+
+.w-icon {
+    width: 100px;
+}
+
+.card-villa {
+    height: 310px;
+}
+
+.card-myimg {
+    height: auto;
+}
+
+.maghale-myimg {
+    height: 250px !important;
+    width: auto !important;
+    margin: 0 auto;
+
+}
+
+li {
+    list-style: none;
+}
+
+.news {
+    background: url(../images/wave2.svg) no-repeat;
+}
+
+.mark {
+    background: url(../images/mark.png) no-repeat center center/cover;
+
+}
+
+.maghale:hover {
+    background-color: white !important;
+}
+
+@media (max-width: 767px) {
+    .maghale {
+        height: 50%;
+    }
+
+    .card-villa {
+        height: 500px;
+    }
+
+    .card-myimg {
+        height: 40%;
+    }
+
+    .menumob {
+        width: 100%;
+    }
+
+}
+
+.my-bg-dark {
+    background-color: #252531;
+}
+
+figure {
+    background: url(../images/wave.png) no-repeat center center/cover;
+    padding-bottom: 10rem;
+}
+
+.mosharekat {
+    width: 100vw;
+}
+
+.maghale {
+    height: 75%;
+    background-color: #E8F0F4 !important;
+    border: none !important;
+    animation-duration: 10s;
+
+}
+
+.new-villa {
+    background-color: #E8F0F4 !important;
+    border-color: white !important;
+    animation-duration: 3s;
+}
+
+.new-villa:hover {
+    background-color: white !important;
+    box-shadow: 0 0 10px #E8F0F4;
+}
+
+.nav-link:hover {
+    color: #FB5C01 !important;
+
+}
